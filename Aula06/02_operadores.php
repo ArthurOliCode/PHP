@@ -9,6 +9,7 @@
 <body>
     <div>
         <?php
+            // A entrada de dados é feita via URL
             /*
                 Este exercício tem a função de demonstrar
                 os usos de incremento e decremento em PHP

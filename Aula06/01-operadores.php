@@ -9,6 +9,7 @@
 <body>
     <div>
         <?php
+            // A entrada de dados é feita via URL
             $preco = $_GET["p"];
             echo "<h3>Aumento</h3>";
             echo "O preço do produto é: R$ " . number_format($preco, 2);

@@ -9,6 +9,7 @@
 <body>
     <div>
         <?php
+            // A entrada de dados é feita via URL
             $nota1 = $_GET["nota1"];
             $nota2 = $_GET["nota2"];
             $nota3 = $_GET["nota3"];

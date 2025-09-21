@@ -9,6 +9,7 @@
 <body>
     <div>
         <?php
+            // A entrada de dados é feita via URL
             $anoNas = $_GET["ano"];
             $idade = 2025 - $anoNas;
             $voto = ($idade >= 18  && $idade < 65)? "obrigatório": "não obrigatório";

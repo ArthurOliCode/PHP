@@ -9,6 +9,7 @@
 <body>
     <div>
         <?php
+            // A entrada de dados é feita via URL
             $site = "GitHub";
             $$site = "ArthurOliCode"; // Variável feita a partir da variável $site nomeada de "GitHub"
 

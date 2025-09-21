@@ -9,10 +9,12 @@
 <body>
     <div>
         <?php
+        // A entrada de dados é feita via URL
         $n1 = $_GET["num1"];
         $n2 = $_GET["num2"];
         $tipo = $_GET["op"];
         $resultado = ($tipo == "s") ? $n1+$n2 : $n1*$n2;
+        
         echo "<h3>Resultados</h3></br></br>";
         echo "Os valores passados são: $n1, $n2, $tipo </br>"; 
         echo "O resultado é $resultado, e a operação é $tipo </br></br>";

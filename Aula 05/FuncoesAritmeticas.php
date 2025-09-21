@@ -9,6 +9,7 @@
 <div>
     <h1>Funções Aritméticas em PHP</h1>
     <?php
+    // A entrada de dados é feita via URL
     $n1 = $_GET["x"];
     $n2 = $_GET["y"];
     echo "<p>Valores recebidos $n1 e $n2</p>";

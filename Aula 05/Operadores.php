@@ -9,6 +9,7 @@
 <div>
     <h1>Operadores lógicos em PHP</h1>
     <?php
+        // A entrada de dados é feita via URL
         $n1 = $_GET["a"];
         $n2 = $_GET["b"];
         $s = $n1 + $n2;
