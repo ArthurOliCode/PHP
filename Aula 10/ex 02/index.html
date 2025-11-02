@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../_css/estilo.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curso de PHP</title>
+    <style>
+      .botao {
+        border-radius: 5px;
+        padding: 8px 15px;
+        color: aliceblue;
+        cursor: pointer;
+        background-color: #273747;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h3>Bem vindo aos dias da semana</h3>
+      <br /><br />
+      <form action="semanaDias.php" method="get">
+        <legend>Digite o dia da semana</legend>
+        <br />
+        <input
+          type="number"
+          min="2"
+          max="8"
+          name="dia"
+          placeholder="2:segunda, 3:terça ..."
+          style="max-width: 5vw"
+          required
+        /><br /><br />
+        <input type="submit" class="botao" />
+      </form>
+    </div>
+  </body>
+</html>

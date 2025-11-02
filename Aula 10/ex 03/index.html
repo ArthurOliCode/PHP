@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../_css/estilo.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curso de PHP</title>
+    <style>
+      .botao {
+        border-radius: 5px;
+        padding: 8px 15px;
+        color: aliceblue;
+        cursor: pointer;
+        background-color: #273747;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h3>Bem vindo ao seletor de estados!</h3>
+      <h5>Selecione o estado ao qual você pertence, ou está:</h5>
+      <form action="estados.php" method="get">
+        <legend>Estados:</legend>
+        <select name="estados" id="estados">
+          <option value="Norte">Acre</option>
+          <option value="Nordeste">Alagoas</option>
+          <option value="Norte">Amapá</option>
+          <option value="Norte">Amazonas</option>
+          <option value="Nordeste">Bahia</option>
+          <option value="Nordeste">Ceará</option>
+          <option value="Centro-Oeste">Distrito Federal</option>
+          <option value="Sudeste">Espírito Santo</option>
+          <option value="Centro-Oeste">Goiás</option>
+          <option value="Nordeste">Maranhão</option>
+          <option value="Centro-Oeste">Mato Grosso</option>
+          <option value="Centro-Oeste">Mato Grosso do Sul</option>
+          <option value="Sudeste">Minas Gerais</option>
+          <option value="Norte">Pará</option>
+          <option value="Nordeste">Paraíba</option>
+          <option value="Sul">Paraná</option>
+          <option value="Nordeste">Pernambuco</option>
+          <option value="Nordeste">Piauí</option>
+          <option value="Sudeste">Rio de Janeiro</option>
+          <option value="Nordeste">Rio Grande do Norte</option>
+          <option value="Sul">Rio Grande do Sul</option>
+          <option value="Norte">Rondônia</option>
+          <option value="Norte">Roraima</option>
+          <option value="Sul">Santa Catarina</option>
+          <option value="Sudeste">São Paulo</option>
+          <option value="Nordeste">Sergipe</option>
+          <option value="Norte">Tocantins</option>
+        </select>
+        <br /><br /><input type="submit" class="botao" />
+      </form>
+    </div>
+  </body>
+</html>
