@@ -26,7 +26,7 @@
       os critérios que são levados em consideração, consiste se o número possue mais de dois múltiplos a ele,<br />
       sendo esses o número 1 além do próprio digíto.</p>
     <?php
-    $multiD = new \DS\Vector();
+    $multiD = [];
 
     $n = isset($_GET["num"]) ? $_GET["num"] : 1;
     $multiQ = 0;
@@ -39,22 +39,23 @@
       }
     }
 
-    $tamanhoV = count($multiD);
 
     echo "<h4>Os resultados foram: </h4>";
     echo "<p>Os múltiplos encontrados foram: ";
 
-    for ($c = 0; $c <= $tamanhoV; $c++) {
-      if ($c < $tamanhoV) {
-        echo "$multiD[$c] ,";
-      }
-      echo "$multiD[$c] </p>";
+    foreach ($multiD as $i => $valor) {
+      echo "$valor ";
     }
 
-    echo "<p>A quantidade de múltilos encontrados foram: $multiQ </p></br>";
+    echo "<p><br />A quantidade de múltilos encontrados foram: $multiQ </p></br>";
 
+    if ($multiQ <= 2) {
+      echo "<h4>O número $n é primo!</h4>";
+    } else {
+      echo "<h4>O número $n não é primo!</h4>";
+    }
     ?>
-    <a href="javascript:history.go(-1)">Voltar</a>
+    <a href="javascript:history.go(-1)" class="botao">Voltar</a>
   </div>
 </body>
 
