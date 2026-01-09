@@ -1,0 +1,43 @@
+body {
+  font-family: "Lucida Sans", Arial;
+  background: linear-gradient(to right, rgb(30, 156, 230), rgb(17, 192, 236));
+  color: rgba(240, 255, 255, 0.829);
+}
+
+header {
+  display: flex;
+  margin: auto;
+  gap: 5vh;
+}
+
+section {
+  display: flex;
+  margin: 5vh;
+}
+
+footer {
+  display: flex;
+  margin: auto;
+  font-style: italic;
+}
+
+div {
+  margin: auto;
+}
+
+.content {
+  width: 40vw;
+  background-color: azure;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 4px 3px 3px rgb(0, 0, 0, 0.5);
+}
+
+.botao {
+  border-radius: 5px;
+  padding: 8px 15px;
+  color: aliceblue;
+  cursor: pointer;
+  background-color: #273747;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
